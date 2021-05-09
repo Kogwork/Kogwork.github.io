@@ -40,6 +40,7 @@ function required() {
     var firstN = document.forms["contactForm"]["First name"].value
     var lastN = document.forms["contactForm"]["Last name"].value
     if (email == "" || firstN == "" || lastN == "") {
+        alert("You must fill ALL the required fields.")
         return false;
     }
 }
